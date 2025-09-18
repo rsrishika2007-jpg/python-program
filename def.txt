@@ -1,0 +1,14 @@
+class car:
+    def __init__(self,a,b,c):
+        self.carno=a
+        self.brand=b
+        self.color=c
+    def disp(self):
+        print(self.carno)
+        print(self.brand)
+        print(self.color)
+ob=car(123,"Bmw","RED")
+ob.disp()
+    
+        
+    
