@@ -1,0 +1,18 @@
+#index error
+num=[1,2,3,4,5]
+print(num[6])
+#type eror
+a=int(input("enter a value:"))
+b=input("enter a another value:")
+c=a+b
+print(c)
+#name error
+print(x)
+#io error
+try:
+    f=open("file.txt","r")
+    content=f.read()
+    print(content)
+    file.close()
+except:
+    print("io error occured")
